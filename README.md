@@ -12,5 +12,7 @@ Click the latest challenge below. The problems will be posted here, to the Githu
 Then, come to RAM Hacks on Tuesdays in the Graduate Lounge in Tyler Hall. We'll review the solutions that were submitted and discuss the problems. Even if you don't submit a solution, come anyways! Eat pizza, discuss computery things, and just hang out. 
 
 
+Code golf is _always_ encouraged, though. ;) Maybe we can have a golf competition.
+
 ### Challenges
 1. [Week 1](linkneeded)
