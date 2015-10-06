@@ -1,4 +1,4 @@
-sic Boolean Logic
+### Simple Boolean Logic
 
 _These problems have been copied from [codingbat.com](http://codingbat.com/)_.
 
