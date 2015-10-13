@@ -15,4 +15,4 @@ Then, come to RAM Hacks on Tuesdays in the Graduate Lounge in Tyler Hall. We'll 
 Code golf is _always_ encouraged, though. ;) Maybe we can have a golf competition.
 
 ### Challenges
-1. [Week 1](linkneeded)
+1. [Week 1](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week1)
