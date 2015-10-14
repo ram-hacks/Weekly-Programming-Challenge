@@ -1,4 +1,4 @@
-# A solution in livescript (a language that transpiles to javascript)
+# A solution in livescript (a language that compiles to javascript)
 #
 # You can run it from your browser. 
 # 1. Go to livescript.net
@@ -21,16 +21,23 @@
 #############
 
 h = (a) --> let o = {}:
-  a / "" |> map (x) -> o[x] = (o[x] || 0) + 1
+  a / "" |> map (x) -> o[x] = o[x] + 1 || 0
+  o
 permutations = (a,b) --> (h a) === (h b)
 
 # Prints some test cases to the console 
 console.log(permutations "abc", "cab")
 console.log(permutations "abc", "ccab")
 console.log(permutations "abc", "CA B")
-# The next one prints true for some reason, apparently it's not case sensitive
 console.log(permutations "abc", "CAB")
 console.log(permutations "abc", "abc")
+
+# Super compact version:
+H=(a)->let o={}:
+ a/""|>map (x)->o[x]=o[x]+1||1
+ o
+p=(a,b)->(H a)===(H b)
+p "abc", "cab"
 
 #############
 # Sorting based answer:
@@ -40,6 +47,8 @@ console.log(permutations "abc", "abc")
 #
 # This one has better names for variables
 #############
+
+console.log("############ SORTING ################");
 
 # Converts a string to an array of characters
 # It's equivalent to (a) -> a.split("")
