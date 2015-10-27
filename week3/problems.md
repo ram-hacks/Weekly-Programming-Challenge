@@ -20,10 +20,11 @@ Now, take your iterative solution and try and make it recursive. State your base
 (Note: Recursion is generally never the answer. This is for fun though, so who cares)
 
 ## Partial Palindrome
-Now that we've looked at if an entire string is a palindrome, let's look at partial palindromes. Given a string `a`, return the _longest palindrome_ found within the string. For example...
+Now that we've looked at if an entire string is a palindrome, let's look at partial palindromes. Given a string `a`, return the _longest continuous palindrome_ found within the string. For example...
 ```
 partial_palindrome('abcbaxyz') -> 'abcba'
 partial_palindrome('aaa12321bbb') -> '12321'
+partial_palindrome('123abcba321') -> 'abcba' # Note that here, 123321 is not contiguous, so it's not returned
 ```
 
 Hope you have fun!
