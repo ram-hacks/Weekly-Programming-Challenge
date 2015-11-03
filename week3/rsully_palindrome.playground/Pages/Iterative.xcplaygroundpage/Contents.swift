@@ -42,3 +42,7 @@ isPalindrome("1111") == true
 
 isPalindrome("bla") == false
 
+isPalindrome("💬") == true
+isPalindrome("💬💬") == true
+isPalindrome("💬a💬") == true
+isPalindrome("👈👉") == false
