@@ -4,5 +4,6 @@
         <page name='String Reverse'/>
         <page name='Iterative'/>
         <page name='Recursive'/>
+        <page name='Partial Iterative'/>
     </pages>
 </playground>
