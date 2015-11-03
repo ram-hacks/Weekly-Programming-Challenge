@@ -47,9 +47,8 @@ def longest_palindrome(a):
         return a
 
     # Enter the bad
-    # Set the max so far to the first character
-    max_so_far = a[0]
-    for length in range(2,len(a)-1):
+    max_so_far = ''
+    for length in range(1,len(a)-1):
         start = 0
         while start <= len(a) - 1:
             sub = a[start:start+length]
@@ -65,25 +64,27 @@ def longest_palindrome(a):
        
 
 def main():
-    # print(palindrome_golf('a'))
-    # print(palindrome_golf('abc'))
-    # print(palindrome_golf('abcba'))
-    # print(palindrome_golf('racecar'))
-    # print('---')
-    # print(palindrome_itertive('a'))
-    # print(palindrome_itertive('abc'))
-    # print(palindrome_itertive('abcba'))
-    # print(palindrome_itertive('racecar'))
-    # print('---')
-    # print(palindrome_recursive('a'))
-    # print(palindrome_recursive('abc'))
-    # print(palindrome_recursive('abcba'))
-    # print(palindrome_recursive('racecar'))
+    print(palindrome_golf('a'))
+    print(palindrome_golf('abc'))
+    print(palindrome_golf('abcba'))
+    print(palindrome_golf('racecar'))
     print('---')
+    print(palindrome_itertive('a'))
+    print(palindrome_itertive('abc'))
+    print(palindrome_itertive('abcba'))
+    print(palindrome_itertive('racecar'))
+    print('---')
+    print(palindrome_recursive('a'))
+    print(palindrome_recursive('abc'))
+    print(palindrome_recursive('abcba'))
+    print(palindrome_recursive('racecar'))
+    print('---')
+    print(longest_palindrome('a'))
     print(longest_palindrome('abc'))
+    print(longest_palindrome('abcba'))
     print(longest_palindrome('racecar'))
-    # print(longest_palindrome('abcdd'))
-    # print(longest_palindrome('abcde111111111fgh'))
+    print(longest_palindrome('abcdddabc'))
+    print(longest_palindrome('abcddddabc'))
 
 
 if __name__ == '__main__':
