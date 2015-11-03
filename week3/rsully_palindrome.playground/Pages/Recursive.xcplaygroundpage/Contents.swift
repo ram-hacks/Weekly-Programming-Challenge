@@ -1,22 +1,22 @@
-func isPalindrome(str: String) -> Bool {
-    let left = str.startIndex
-    var right = str.endIndex
+func isPalindrome(💬: String) -> Bool {
+    let 👈 = 💬.startIndex
+    var 👉 = 💬.endIndex
 
-    if (left == right) {
+    if (👈 == 👉) {
         // Handle empty strings
         return true
     }
-    right = right.predecessor()
-    if (left == right) {
+    👉 = 👉.predecessor()
+    if (👈 == 👉) {
         // Handle 1 char strings
         return true;
     }
 
-    if str.characters[left] != str.characters[right] {
+    if 💬.characters[👈] != 💬.characters[👉] {
         return false
     }
 
-    return isPalindrome(str[Range(start: left.successor(), end: right)])
+    return isPalindrome(💬[Range(start: 👈.successor(), end: 👉)])
 }
 
 
