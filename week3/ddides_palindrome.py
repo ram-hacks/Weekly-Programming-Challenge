@@ -1,4 +1,3 @@
-# Part 1
 def palindrome_golf(a):
     return a[::-1] == a
 
@@ -31,6 +30,10 @@ def palindrome_recursive(a):
             return palindrome_recursive(a[1:-1])
         else:
             return False
+
+def longest_palindrome(a):
+    """ Returns the longest contiguous palindrome in a given string """
+
        
 
 def main():
