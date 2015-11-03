@@ -4,21 +4,18 @@ def palindrome_golf(a):
 def palindrome_itertive(a):
     """ Start at the start and the end, count inwards """
     # TODO make this less crappy
-    if len(a) <= 1:
-        return True
-    else:
-        start = 0 
-        end = len(a) - 1
-        while start != end:
-            # print(end)
-            # print('start: ', start, ' a: ', a[start])
-            # print('end: ', end, ' a: ', a[end])
-            if not a[start] == a[end]:
-                return False
-            else:
-                start += 1
-                end -= 1
-        return True
+    start = 0 
+    end = len(a) - 1
+    while start != end:
+        # print(end)
+        # print('start: ', start, ' a: ', a[start])
+        # print('end: ', end, ' a: ', a[end])
+        if not a[start] == a[end]:
+            return False
+        else:
+            start += 1
+            end -= 1
+    return True
 
 def palindrome_recursive(a):
     """ OH GOD HERE WE GO AGAIN AND AGAIN AND AGAIN AND AGAIN """
