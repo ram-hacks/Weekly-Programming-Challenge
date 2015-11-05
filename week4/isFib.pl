@@ -8,7 +8,8 @@
 isFib(X) :-
 	(Y is float(round(sqrt(5*X*X+4))),
 	Z is sqrt(5*X*X+4),
-	Y=Z,!)|
+	Y=Z,
+	!)|
 	(Y is float(round(sqrt(5*X*X-4))),
 	Z is sqrt(5*X*X-4),
 	Y=Z).
