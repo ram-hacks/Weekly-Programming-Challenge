@@ -10,13 +10,14 @@
 ⍝ ¨ applies the function to every element of the list (like map in ml)
 ⍝ ∘ is for function composition
 ⍝ ⌈ is the ceiling function
+⍝ ⍴ is size/reshape operator
 
 ⍝ This is a direct translation of my clojure implementation
 sqrt ← { ⍵ * .5 }
 φ ← (1 + sqrt 5) ÷ 2
 ψ ← (1 - sqrt 5) ÷ 2
 fib ← { ⌈ ((((φ * ⍵) - (ψ * ⍵)) ÷ (sqrt 5)) - 0.5) }
-fIndex ← { 1 + ⌈ ((⍟ ⍵) ÷ (⍟ φ)) }
+fIndex ← { 1 + ⌈ (φ ⍟ ⍵) }
 isFib ← { ⍵ = (fib ∘ fIndex ⍵) }
 
 isFib 54 ⍝ => 0
@@ -24,9 +25,10 @@ isFib 55 ⍝ => 1
 isFib 102334155 ⍝ => 1
 isFib 102334156 ⍝ => 0
 
-⍝ This version build a list of fibonacci numbers then checks if the argument is in the list
-⍝ It doesnt work as well as the other version for large numbers
-aFib ← { ⍵ ∊ { a ← ⍵⍴0 ⋄ { ⍵ ≤ 1: a[⍵]←1 ⋄ a[⍵] ← a[⍵ - 1] + a[⍵ - 2] }¨ (⍳⍵) ⋄ a } (fIndex ⍵) }
+⍝ A more concise implementation of the above
+r←5*.5
+p←.5×(1 ¯1)+r ⍝ Phi and Phi bar
+aFib←{⍵={⌈-/(p∘*⍵+1)÷r}⌈1↑p⍟⍵}
 
 aFib 54 ⍝ => 0
 aFib 55 ⍝ => 1
@@ -39,5 +41,5 @@ aFib 102334156 ⍝ => 0
 
 ⍝ Checks the first N numbers for fibonacci numbers
 N ← 300
-Numbers ← (1 + (⍳ N))
-2 N ⍴ Numbers, (isFib¨ Numbers)
+Numbers ← 1 ↓ ⍳ (N + 1)
+3 N ⍴ Numbers, (isFib¨ Numbers), (aFib¨ Numbers)
