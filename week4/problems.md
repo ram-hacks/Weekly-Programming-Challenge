@@ -19,8 +19,14 @@ Write a function that takes in an integer _n_ and returns _True_ if _n_ is a pow
 ### God I Really Hate Fibonocci Numbers
 Write a function that takes in an integer _n_ and returns _True_ if _n_ is a number in the Fibonocci Sequence. Otherwise, return _False_.
 
-### More to come?
-MAYBE.
+### Challengier: Evaluate a Polynomial
+Write a function that takes a vector of coefficients and a value, and evaluates the polynomial. For example,
+```
+  poly(4, {6, -3, -5, 2, 8})
+  => 2090
+  ```
+Represents the polynomial 6 - 3x - 5x^2 + 2x^3 + 8x^4 evaluated at x = 4.
+
 
 ## Closing Notes
 Using an esoteric language isn't required, but let's try and mix it up this week and use some more funky languages. There's more to the world than just Python, Dan.
