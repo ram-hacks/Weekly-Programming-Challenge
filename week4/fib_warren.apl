@@ -35,10 +35,6 @@ aFib 55 ⍝ => 1
 aFib 102334155 ⍝ => 1
 aFib 102334156 ⍝ => 0
 
-⍝ Checks if 1, 2, ... 100, are fibonacci numbers
-⍝ isFib¨ (1 + (⍳ 100))
-⍝ aFib¨ (1 + (⍳ 100))
-
 ⍝ Checks the first N numbers for fibonacci numbers
 N ← 300
 Numbers ← 1 ↓ ⍳ (N + 1)
