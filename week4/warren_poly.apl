@@ -1,3 +1,5 @@
+⍝ Tested on http://ngn.github.io/apl/web/
+
 ⍝ Evaluates a polynomial with the most significant power on the left
 ⍝ APL has a built-in operator for evaluating polynomials! Because, why not?
 poly←⊥
@@ -12,8 +14,14 @@ poly←⊥
 ⍝   eg 2↑1 2 3 4 5 => 1 2
 ⍝ The :⋄ is the ternary conditional operator (?: in C)
 
-⍝ Evaluates a polynomial with the most significant power on the right using Horner's method
+⍝ Evaluates a polynomial with the most significant power on the right
+⍝ using Horner's method recursively
 horner←{1=⍴⍵:⍵⋄(1↑⍵)+⍺×⍺∇1↓⍵}
 
 ⍝ evaluates to 2 + 3(3) + 4(3)^2 + 5(3)^3
+3 horner 2 3 4 5
+
+⍝ A non-recursive implementation based on fold
+horner←{x←⍺⋄{⍺+⍵×x}/⍵}
+
 3 horner 2 3 4 5
