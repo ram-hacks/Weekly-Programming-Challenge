@@ -19,6 +19,4 @@ For example:
 * What data structure will make this easiest?
 * Plan out your program before you begin. Work through a few examples on paper and trace your process.
 
-For more information and help, see the slides from the Google talk hosted [here](https://photos.google.com/share/AF1QipNza8nUnhnQSCchJz9OgxBhB0D81vy45Hdy40Es-sqyogjokO1efbNjSvMY_2lT5w?key=bGxEZXpfelo4eHRSclo0bUFjOFgxTnZCZDBQblRn). 
-
 As always, have fun, try your best, and be prepared to talk about how you went about solving this problem!
