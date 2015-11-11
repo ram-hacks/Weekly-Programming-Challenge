@@ -5,7 +5,7 @@ A few weeks ago a Google employee came to URI to speak to Computer Science stude
 Keeping in line with our theme of using real interview questions, I thought this would make a great programming challenge for this week. NOTE: This is not my problem and I do not claim to take credit for it.
 
 ## Dictionary Transformation
-> Given two words (in the dictionary), transform one work into the other by changing only one letter at a time. Each intermediate word must also be a word.
+> Given two words (in the dictionary), transform one word into the other by changing only one letter at a time. Each intermediate word must also be a word.
 
 This problem is fairly straightforward. Write a program that takes in _two words_ and changes a into b by changing only one letter at time. After each single-character change, a must still be a real word.
 
