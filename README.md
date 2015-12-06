@@ -20,3 +20,4 @@ Code golf is _always_ encouraged, though. ;) Maybe we can have a golf competitio
 1. [Week 3](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week3)
 1. [Week 4](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week4)
 1. [Week 5](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week5)
+1. [Week 6](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week6)
