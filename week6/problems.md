@@ -12,6 +12,6 @@ Output the balance after the attempted transaction, given as a number with two d
 
 ## Sorting
 This problem is aimed at more advanced programmers, but anyone can feel free to give it a shot!    
-Your task is to sort a list of integers. The integers will be be between -2,147,483,648 and 2,147,483,647 (the typical range for integers), and your program should be able to handle large numbers of them (certainly more than 1,000, aim for 100,000). At next week's meeting, we will feed a very large dataset into everybody's entries, and whoever submitted the program that sorts them fastest will win the respect and adoration of all those in attendance. Also maybe a gift card or something, if Toni buys one.     
+Your task is to sort a list of integers. The integers will be be between -2,147,483,648 and 2,147,483,647 (the typical range for integers), and your program should be able to handle large numbers of them (certainly more than 1,000, aim for 100,000). At next week's meeting, we will feed a very large dataset into everybody's entries, and whoever submitted the program that sorts them fastest will win the respect and adoration of all those in attendance. 
 
 You can use any language, and any algorithm. If you're feeling ambitious, invent your own algorithm - or perhaps your own language!
