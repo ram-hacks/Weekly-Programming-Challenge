@@ -2,6 +2,7 @@ import sys
 import time
 from threading import Timer
 
+
 def _load_data(infile):
     """ Load the data from the input file """
     try:
@@ -15,27 +16,19 @@ def _load_data(infile):
 
 
 def sleep_sort(data):
-    """ Nobody should ever use this. Ever. """
-    sorted_data = []
+    """ This is so bad """
+    sortedd = []
+    def add(x):
+        sortedd.append(x)
 
-    def _add_to(x):
-        sorted_data.append(x)
-
-    def test_add_to():
-        _add_to('aaa')
-
-        print(sorted_data)
-    test_add_to()
-    for datum in data:
-        # print('Sorting ', datum)
-        curr = data[0]
-        if curr < datum:
-            curr = datum
-
-        t = Timer(int(datum), _add_to(datum))
-        t.start()
-
-    return sorted_data
+    init = int(data[0])
+    for value in data:
+        if int(value) > init:
+            init = int(value)
+        Timer(int(value), add, value).start()
+    time.sleep(init+1)
+    
+    return sortedd
 
 
 def main():
@@ -43,8 +36,7 @@ def main():
         print('Not enough arguments. Usage: $ python ddides.py inputfile')
     else:
         data = _load_data(sys.argv[1])
-        sorted_data = sleep_sort(data)
-        print(sorted_data)
+        print(sleep_sort(data))
 
 
 if __name__ == '__main__':
