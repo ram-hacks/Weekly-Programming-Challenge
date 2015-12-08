@@ -15,9 +15,9 @@ Then, come to RAM Hacks on Tuesdays in the Graduate Lounge in Tyler Hall. We'll 
 Code golf is _always_ encouraged, though. ;) Maybe we can have a golf competition.
 
 ### Challenges
-1. [Week 1](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week1)
-1. [Week 2](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week2)
-1. [Week 3](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week3)
-1. [Week 4](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week4)
-1. [Week 5](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week5)
-1. [Week 6](https://github.com/ram-hacks/Weekly-Programming-Challenge/tree/master/week6)
+1. [Week 1](https://github.com/ram-hacks/Weekly-Programming-Challenge/blob/master/week1/problems.md)
+1. [Week 2](https://github.com/ram-hacks/Weekly-Programming-Challenge/blob/master/week2/problems.md)
+1. [Week 3](https://github.com/ram-hacks/Weekly-Programming-Challenge/blob/master/week3/problems.md)
+1. [Week 4](https://github.com/ram-hacks/Weekly-Programming-Challenge/blob/master/week4/problems.md)
+1. [Week 5](https://github.com/ram-hacks/Weekly-Programming-Challenge/blob/master/week5/problems.md)
+1. [Week 6](https://github.com/ram-hacks/Weekly-Programming-Challenge/blob/master/week6/problems.md)
