@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+# DO NOT EVER WRITE CODE LIKE THIS
 f=lambda l:(lambda n:reduce(lambda a,b:a^b,l)^[n,1,n+1,0][n%4])(len(l)+1)
 
 if __name__ == '__main__':
