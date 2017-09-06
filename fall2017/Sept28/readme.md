@@ -10,6 +10,6 @@ Note that an answer key will be included called "solution.txt"
 
 ## Advanced Challenge
 
-Advanced Challenges will be a problem selected from Kattis. While it is not necessary to create an account, and test your solution with the autograder, it is recommended. You should still commit your solution to the github reposisitory so we can pull it up easily during a club meeting, should you decide to talk about it.
+Advanced Challenges will be a problem selected from Kattis. While it is not necessary to create an account, and test your solution with the autograder, it is recommended. You should still commit your solution to the github repository so we can pull it up easily during a club meeting, should you decide to talk about it.
 
 [CD](https://open.kattis.com/problems/cd)
