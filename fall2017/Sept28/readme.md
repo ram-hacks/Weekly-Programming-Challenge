@@ -1,4 +1,4 @@
-# Programming Challenge for September 28
+# Programming Challenge for September 26
 
 Feel free to talk to other club members about these problems, and if you have any questions feel free to contact the club admins. If you need help using GitHub please talk to a club admin or consult the various online guide, such as this [article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
 
