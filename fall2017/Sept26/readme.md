@@ -4,7 +4,7 @@ Feel free to talk to other club members about these problems, and if you have an
 
 ## Novice Challenge
 
-This is a spin on the traditional FizzBuzz interview question. Print out the numbers 1 to 50 in order. When printing numbers, if a number is divisble by 5 print "RAM" instead. Replace numbers divisible by 7 with "Hacks". If a number is divisble by both numbers print "RAMHacks". 
+This is a spin on the traditional FizzBuzz interview question. Print out the numbers 1 to 50 in order. When printing numbers, if a number is divisble by 3 print "RAM" instead. Replace numbers divisible by 5 with "Hacks". If a number is divisble by both numbers print "RAMHacks". 
 
 Note that an answer key will be included called "solution.txt"
 
