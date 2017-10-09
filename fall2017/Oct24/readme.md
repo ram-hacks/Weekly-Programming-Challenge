@@ -2,7 +2,7 @@
 
 Feel free to talk to other club members about these problems, and if you have any questions feel free to contact the club admins. If you need help using GitHub please talk to a club admin or consult the various online guide, such as this [article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/).
 
-As a breif guide, since this is a protected repository, you will need to create a *fork* of this reposisitory. Go [here](https://github.com/ram-hacks/Weekly-Programming-Challenge), and click *fork*, you will need to be logged on. Then go to your profile, you will see your fork of the Weekly-Programming-Challenges appear under your repositories. Click on it, and navigate to this week's submission folder. You can then upload files, and edit anything you need in the form of *commits*. Once you are satisfied with your changes, you can go back to the main page of your fork, https://github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge, and click *New Pull Request*. Once you submit a pull request, one of the club admins will review your change and accept it.
+As a breif guide, since this is a protected repository, you will need to create a *fork* of this reposisitory. Go [here](https://github.com/ram-hacks/Weekly-Programming-Challenge), and click *fork*, you will need to be logged on. Then go to your profile, you will see your fork of the Weekly-Programming-Challenges appear under your repositories. Click on it, and navigate to this week's submission folder. You can then upload files, and edit anything you need in the form of *commits*. Once you are satisfied with your changes, you can go back to the main page of your fork, github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge, and click *New Pull Request*. Once you submit a pull request, one of the club admins will review your change and hopefully accept it.
 
 ## Novice Challenge
 
@@ -16,11 +16,9 @@ Into this:
 
 >-5 0 3 10 40 40 46 59
 
-Some easier sorts to look at would be Selection Sort, Insertion Sort, or Bubble Sort.
+You control how to do input and output to your program. You could embed it in your solution, ask the user for input, or read from a file.
 
-Some fun sorts to look at would be Bogo Sort or Sleep Sort.
-
-Some hard sorts to look at would be Bitwise-Radix Sort, or Parallel Merge Sort
+Some easier sorts to look at would be Selection Sort, Insertion Sort, or Bubble Sort. Some fun sorts to look at would be Bogo Sort or Sleep Sort. Some hard sorts to look at would be Bitwise-Radix Sort, or Parallel Merge Sort
 
 
 ## Advanced Challenge
