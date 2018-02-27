@@ -19,7 +19,7 @@ You must navigate to the [RAM Hacks Programming Challenge Repository](https://gi
 Let's start by cloning your repository. First you will need to find the URL of the fork that you created. Navigate to your repositories, and look for your fork of the Weekly-Programming-Challenge. It will look something like this github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge. Then you can execute this command:
 
 ``` bash
-git clone github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge
+git clone github.com/{your username here}/Weekly-Programming-Challenge
 ```
 
 Now you have the repository in your current directory. Type:
@@ -41,7 +41,7 @@ git status
 This will show you what files have been changed. You will then need to add them using :
 
 ``` bash
-git add [Files]
+git add {Files}
 ```
 
 Where Files are the file names that you want to commit. You can also just do `git add .` to add everything in the current directory and subdirectories. Then you can actually commit the changes:
