@@ -1,8 +1,6 @@
-# Programming Challenge for October 24
+# Programming Challenge for March 21
 
 Feel free to talk to other club members about these problems, and if you have any questions feel free to contact the club admins. If you need help using GitHub please talk to a club admin or consult the various online guide, such as this [article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/).
-
-As a breif guide, since this is a protected repository, you will need to create a *fork* of this reposisitory. Go [here](https://github.com/ram-hacks/Weekly-Programming-Challenge), and click *fork*, you will need to be logged on. Then go to your profile, you will see your fork of the Weekly-Programming-Challenges appear under your repositories. Click on it, and navigate to this week's submission folder. You can then upload files, and edit anything you need in the form of *commits*. Once you are satisfied with your changes, you can go back to the main page of your fork, github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge, and click *New Pull Request*. Once you submit a pull request, one of the club admins will review your change and hopefully accept it.
 
 ## Novice Challenge
 
@@ -27,4 +25,4 @@ Advanced Challenges will be a problem selected from Kattis. While it is not nece
 
 [Eight Queens](https://open.kattis.com/problems/8queens)
 
-This is a classic recursive backtracking problem, and there is plenty of literature about how to solve this problem. This question is a little different in that it asks you to check if a given solution is correct.
+This is a classic recursive backtracking problem, and there is plenty of literature about how to solve this problem. This question is a little different from the normal one that it asks you to check if a given solution is correct.
