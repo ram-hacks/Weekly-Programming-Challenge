@@ -2,6 +2,8 @@
 
 Feel free to talk to other club members about these problems, and if you have any questions feel free to contact the club admins. If you need help using GitHub please talk to a club admin or consult the various online guide, such as this [article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/).
 
+You could also check out [our guide](../../submission-guide/readme.md) on how to make submissions.
+
 ## Novice Challenge
 
 This week will be sorting! Sorting is a neat topic because there are SO MANY sorting algorithms to try out. The goal of your code will be to take in any amount of numbers, put them in an array or list, and sort them. It does not matter which sort you use, in fact it doesn't even have to be an established sorting algorithm, you can come up with your own way of doing it.

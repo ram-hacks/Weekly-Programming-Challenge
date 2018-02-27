@@ -16,7 +16,7 @@ You must navigate to the [RAM Hacks Programming Challenge Repository](https://gi
 
 ### The *terminal* way (cooler)
 
-Let's start by cloning your repository. First you will need to find the URL of the fork that you created. Navigate to your repositories, and look for your fork of the Weekly-Programming-Challenge. It will look something like this https://github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge. Then you can execute this command:
+Let's start by cloning your repository. First you will need to find the URL of the fork that you created. Navigate to your repositories, and look for your fork of the Weekly-Programming-Challenge. It will look something like this github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge. Then you can execute this command:
 
 ``` bash
 git clone github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge
@@ -64,6 +64,6 @@ To be written. I will be using [Source Tree](https://www.sourcetreeapp.com/) to 
 
 ## Step 4 : Submit a pull request
 
-Once you are satisfied with your changes, you can go back to the main page of your fork, github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge, and click *New Pull Request*. Once you submit a pull request, one of the club admins will review your change and hopefully accept it.
+Once you are satisfied with your changes, you can go back to the main page of your fork, github.com/\[**your username here!!!**\]/Weekly-Programming-Challenge, and click *New Pull Request*. Once you submit a pull request, one of the club admins will review your change and hopefully accept it. You can look at an example of this below.
 
 ![Example PR](Step4.png)
